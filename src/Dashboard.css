@@ -1,0 +1,89 @@
+/* src/components/Dashboard.css */
+.dashboard {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.header {
+  background-color: #3b5998;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.stats,
+.user-list {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 40%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stats h2,
+.user-list h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.stats-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.stats-card h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.user-item.online {
+  color: green;
+}
+
+.user-item.offline {
+  color: red;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.dashboard-btn {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: not-allowed;
+  border-radius: 5px;
+}
