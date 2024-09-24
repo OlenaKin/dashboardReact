@@ -33,37 +33,9 @@ body {
   display: flex;
   flex: 1;
   background-color: rgb(214, 234, 234);
-  background-image: url("../sales\ \(1\).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.dashboard-Overlay {
-  position: relative; /* Enables overlay positioning */
-  height: 100vh; /* Full viewport height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url("../assets/images/background.jpg"); /* Background image path */
-  background-size: cover; /* Ensures image covers container */
-  background-position: center;
-}
-.blur-Overlay::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.4
-  ); /* Semi-transparent white overlay */
-  backdrop-filter: blur(10px); /* Adds the blur effect */
-  z-index: 1; /* Ensures it stays behind text but over background */
 }
 
 .dashboard-body h2 {
